@@ -1,0 +1,153 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: lightgray;
+}
+h1{
+   
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0 30px;
+    background-color: cadetblue;
+    margin: 10px 0;
+    
+    border-style: groove;
+    border-color: black;
+}
+
+#p1{
+
+    text-align: center;
+}
+
+#p2{
+    text-align: center;
+    background-color: cadetblue;
+    border-style: solid;
+    border-color: black;
+    padding: 20px 0;
+}
+
+li{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+    height: auto;
+   
+}
+
+ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+#calculator-frame{
+    display: flex;
+    align-self: center;
+    width: 250px;
+    height: 280px;
+    background-color: grey;
+    flex-direction: column;
+    border-radius: 10%;
+    border-style: solid;
+}
+
+#display{
+    
+    background-color: darkgrey;
+    width: 80%;
+    height: 12%;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 5px;
+    border-radius: 10%;
+    border-style: double;
+    border-color: rgb(rgb(0, 119, 255), rgb(0, 87, 128), rgb(0, 132, 255));
+}
+
+#special-buttons{
+    display: flex;
+    gap: 80px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#numbers{
+    margin: 0 10px 10px 10px;
+    background-color: rgb(46, 48, 49);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    gap: 6px;
+    margin-left: 58px;
+}
+
+#numbers-final-row-0{
+    width: 40px;
+    margin-right: 11px ;
+    
+}
+
+#numbers-final-row-dot{
+    width: 24px;
+}
+
+#sub{
+    width: 24px;
+}
+
+#divide{
+    width: 24px;
+}
+
+#multiply{
+    width: 24px;
+}
+#equals{
+    
+    width: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-bottom: 40px;
+}
